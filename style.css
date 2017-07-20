@@ -7,10 +7,14 @@
   text-align:center;
   background:#1a0047;
   z-index: 2;
+  position: relative;
+  overflow:hidden;
 }
 
 .jumbotron img{
   position:absolute;
   z-index: 1;
   opacity 0.6;
+  left:0px;
+  top:0px;
 }
