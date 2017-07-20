@@ -9,7 +9,6 @@
 #main {
   background-image: url(Lams.png);
   min width: 100%;
-  color: black;
   background-position:center;
   background-size:cover;
   position: relative;
@@ -18,12 +17,10 @@
  font-family:"Quicksand", sans-serif;
  font-size: 100px;
  font-weight:70px;
-  color:black;
 }
 
 h1, h2, h5 {
   text-align: center;
-  color: black;
 }
 
 
