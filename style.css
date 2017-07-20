@@ -2,7 +2,7 @@
         background-image: url("Lams.png");
 
         min-height: 500px;
-
+        height: 1080px;
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
