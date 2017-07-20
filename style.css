@@ -9,7 +9,7 @@
 }
 
 .main{
-  background-image: "Lams.png";
+  background-image: url(Lams.png);
   min width: 100%;
   text-align: center;
   color: white;
