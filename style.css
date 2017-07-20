@@ -3,11 +3,11 @@
 } */
 
 #main {
-  background-image: url(Lams.png);
+  background-image: url(lams.png);
   min width: 100%;
 }
 
-#main h1, h2, h5{
+h1, h2, h5{
   text-align: center;
   color: white;
 }
