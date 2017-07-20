@@ -1,18 +1,49 @@
-* {
-  border: 1px solid rgba(0,0,0,0.3);
-} 
+.parallax {
+        background-image: url("Lams.png");
 
-.main{
-  padding:none;
-  color: black;
-  text-align:center;
-}
+        min-height: 500px;
 
-.parallax img{
-  height:auto;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 0;
-}
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 65%;
+    }
+    .caption{
+      color:white;
+      background-color: rgba(40, 0, 73,0.5);
+      padding:20px;
+      top: 25%;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .cap{
+      padding: 18px;
+      font-size: 55px;
+      text-transform: uppercase;
+    }
+    #capmain{
+      top:0%;
+      height:65%;
+      padding: 150px 150px;
+    }
+
+    h1{
+      font-size: 2em;
+    }
+
+    h1, h2, h3{
+      font-family: "Quicksand",sans-serif;
+      font-weight: lighter;
+    }
+
+    h3{
+      font-size: 1em;
+    }
+
+    h5{
+      font-style: italic;
+    }
