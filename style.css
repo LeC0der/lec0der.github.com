@@ -1,16 +1,16 @@
-*{
+* {
   border: 1px solid rgba(0,0,0,0.3);
 }
 
-#title{
- font-family:"Quicksand", sans-serif;
- font-size: 50px;
-  font-weight:70px;
-}
-
-#main{
+#main {
   background-image: url(Lams.png);
   min width: 100%;
   text-align: center;
   color: white;
+}
+
+#title {
+ font-family:"Quicksand", sans-serif;
+ font-size: 50px;
+  font-weight:70px;
 }
