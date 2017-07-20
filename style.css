@@ -4,5 +4,13 @@
 
 #title{
  font-family:"Quicksand", sans-serif;
-  font-size: 50px;
+ font-size: 50px;
+  font-weight:70px;
+}
+
+.main{
+  background: "Lams.png";
+  min width: 100%;
+  text-align: center;
+  color: white;
 }
