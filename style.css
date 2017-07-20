@@ -14,15 +14,16 @@
   background-size:cover;
   position: relative;
 }
-
-h1, h2, h5 {
-  text-align: center;
-  color: black;
-}
-
 #title {
  font-family:"Quicksand", sans-serif;
  font-size: 100px;
  font-weight:70px;
   color:black;
 }
+
+h1, h2, h5 {
+  text-align: center;
+  color: black;
+}
+
+
