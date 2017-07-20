@@ -2,6 +2,10 @@
   border: 1px solid rgba(0,0,0,0.3);
 } */
 
+*{
+  color:black;
+}
+
 #main {
   background-image: url(Lams.png);
   min width: 100%;
@@ -17,4 +21,5 @@ h1, h2, h5 {
  font-family:"Quicksand", sans-serif;
  font-size: 50px;
  font-weight:70px;
+  color:black;
 }
