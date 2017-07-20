@@ -10,6 +10,9 @@
   background-image: url(Lams.png);
   min width: 100%;
   color: black;
+  background-position:center;
+  background-size:cover;
+  position: relative;
 }
 
 h1, h2, h5 {
