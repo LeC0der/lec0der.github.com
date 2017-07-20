@@ -2,7 +2,8 @@
   border: 1px solid rgba(0,0,0,0.3);
 } */
 
-.jumbotron{
+.main{
+  padding:none;
   color: black;
   text-align:center;
   background:#1a0047;
@@ -13,7 +14,7 @@
    position: relative; 
 }
 
-.jumbotron:before {
+.main:before {
     content: "";
     position: absolute;
     top: 0;
