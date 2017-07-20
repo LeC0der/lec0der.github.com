@@ -5,6 +5,9 @@
 #main {
   background-image: url(Lams.png);
   min width: 100%;
+}
+
+#main h1, h2, h5{
   text-align: center;
   color: white;
 }
