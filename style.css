@@ -1,27 +1,20 @@
-/* {
+* {
   border: 1px solid rgba(0,0,0,0.3);
-} */
+} 
 
 .main{
   padding:none;
   color: black;
   text-align:center;
   background:#1a0047;
-  /*z-index: 2;
-  position: relative;
-  overflow:hidden;
-  align-content:center; */
-   position: relative; 
+  z-index: 2;
+  text-align:center;
 }
 
-.main:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    background-image: url('Lams.jpg');
-    opacity: 0.5;
+.parallax img{
+  height:auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
