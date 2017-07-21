@@ -1,38 +1,37 @@
-body{
-        color:white;
-        padding: 0;
-        margin: 0;
-        background-color:#16121e;
-      }
+body {
+  color:white;
+  padding: 0;
+  margin: 0;
+  background-color:#16121e;
+}
 
-      h1 {
-        padding-top:40vh;
-        font-family: "Ruda","Potano Sans",sans-serif;
-        font-size: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        margin:0;
-      }
+h1 {
+  padding-top:40vh;
+  font-family: "Ruda","Potano Sans",sans-serif;
+  font-size: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin:0;
+}
+.jumbotron h1.title{
+  font-size: 100px;
+}
 
-      .jumbotron h1.title{
-        font-size: 100px;
-      }
-
-      .jumbotron{
-        padding:none;
-        text-align: center;
-        background-position: bottom center;
-        text-transform: uppercase;
-        font-weight: bold;
-        height:1000px;
-        background-image: url("mountaindemo.jpg");
-        border-left: 25px solid rgba(6, 9, 43,0.3);
-        transition: 1.5s;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-      }
+.jumbotron{
+ padding:none;
+ text-align: center;
+ background-position: bottom center;
+ text-transform: uppercase;
+ font-weight: bold;
+ height:1000px;
+ background-image: url("mountaindemo.jpg");
+ border-left: 25px solid rgba(6, 9, 43,0.3);
+ transition: 1.5s;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ background-size: cover;
+}
 
       /*When Hovered over jjumbo fade image and fade out border*/
       .jumbotron:hover{
@@ -94,34 +93,34 @@ body{
 
       }
 
-      .plane{
-        background-image: url("plane.jpg");
-        height:700px;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-      }
+.plane{
+    background-image: url("plane.jpg");
+    height:700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 
-      .flight-description{
-      }
+.flight-description{
+}
 
-      ul li{
-        list-style-type: none;
-      }
+ul li{
+  list-style-type: none;
+}
 
-      ul li h2{
-        font-family: "Catamaran",sans-serif;
-        font-size: 4em;
-      }
+ul li h2{
+  font-family: "Catamaran",sans-serif;
+   font-size: 4em;
+}
 
-      ul li h3{
+ul li h3{
         color: Red;
         font-weight: bold;
         font-size: 4.5em;
       }
 
-      ul li p.disclaimer{
-        font-family: "Catamaran",sans-serif;
-        font-size: .5em
-      }
+ul li p.disclaimer{
+   font-family: "Catamaran",sans-serif;
+   font-size: .5em
+}
