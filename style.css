@@ -1,55 +1,127 @@
-.parallax {
-        background-image: url("Lams.png");
+body{
+        color:white;
+        padding: 0;
+        margin: 0;
+        background-color:#16121e;
+      }
 
-        min-height: 500px;
-        height: 1080px;
-        /* Create the parallax scrolling effect */
+      h1 {
+        padding-top:40vh;
+        font-family: "Ruda","Potano Sans",sans-serif;
+        font-size: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin:0;
+      }
+
+      .jumbotron h1.title{
+        font-size: 100px;
+      }
+
+      .jumbotron{
+        padding:none;
+        text-align: center;
+        background-position: bottom center;
+        text-transform: uppercase;
+        font-weight: bold;
+        height:1000px;
+        background-image: url("mountaindemo.jpg");
+        border-left: 25px solid rgba(6, 9, 43,0.3);
+        transition: 1.5s;
+        background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
-        background-repeat: no-repeat;
         background-size: cover;
-        opacity: 65%;
-    }
-    .caption{
-      color:white;
-      background-color: rgba(40, 0, 73,0.5);
-      padding:20px;
-      top: 25%;
-      position: absolute;
-      left: 0;
-      width: 100%;
-      text-align: center;
-    }
-    .cap{
-      padding: 18px;
-      font-size: 55px;
-      text-transform: uppercase;
-    }
-    #capmain{
-      top:0%;
-      height:65%;
-      padding: 150px 150px;
-    }
+      }
 
-    h1{
-      font-size: 2em;
-    }
+      /*When Hovered over jjumbo fade image and fade out border*/
+      .jumbotron:hover{
+        transition: 2s;
+        border-left: 25px solid rgba(8, 9, 38, 0.4);
+        background-image:url("forest.jpg");
+        background-repeat: no-repeat;
+      }
 
-    h1, h2, h3{
-      font-family: "Quicksand",sans-serif;
-      font-weight: lighter;
-    }
+      .jumbotron .container{
+        padding-top: none;
+      }
 
-    h3{
-      font-size: 1em;
-    }
+      span.hover{
+        border: 3px dashed white;
+        padding: 7px;
+        font-family: "Pontano Sans","Catarman",sans-serif;
+        font-size: 2em;
+        transition: 1s;
+        background-color: rgba(255, 255, 255, 0.3);
+      }
 
-    h5{
-      font-style: italic;
-    }
-body {
-  padding: 0;
-  margin: 0;
-  background-color: #1E1E24;
-  text-align: center;
-}
+      span.hover:hover{
+        border: 2px dashed white;
+        transition: .5s;
+        background-color: rgba(33, 33, 33, 0.8);
+        padding:10px;
+        font-size: 2.5em;
+        cursor: pointer;
+      }
+
+      .fadeInUp{
+        -webkit-animation-durartion: 1s:
+        -webkit-animation-delay:2s;
+      }
+      a {
+        color:white
+      }
+      /* Each state */
+
+      a:visited { text-decoration: none; color:white; }
+      a:hover { text-decoration: none; color:white; }
+      a:focus { text-decoration: none; color:white; }
+      a:hover, a:active { text-decoration: none; color:white }
+
+      .title{
+        font-size: 200px;
+      }
+
+      .info{
+        text-align: center;
+        font-family: "Ruda",sans-serif;
+        font-size:1.5em;
+        font-weight: lighter;
+        margin: 40px 80px;
+        border: 4px dashed white;
+        padding: 30px 30px;
+        border-radius:10px;
+
+      }
+
+      .plane{
+        background-image: url("plane.jpg");
+        height:700px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .flight-description{
+      }
+
+      ul li{
+        list-style-type: none;
+      }
+
+      ul li h2{
+        font-family: "Catamaran",sans-serif;
+        font-size: 4em;
+      }
+
+      ul li h3{
+        color: Red;
+        font-weight: bold;
+        font-size: 4.5em;
+      }
+
+      ul li p.disclaimer{
+        font-family: "Catamaran",sans-serif;
+        font-size: .5em
+      }
