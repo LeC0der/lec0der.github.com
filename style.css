@@ -202,3 +202,21 @@ h2{
   text-transform: uppercase;
   font-weight: 200;
 }
+
+.butt{
+  text-align:center;
+ text-transform:uppercase;
+  font-family:"Potano Sans","Ruba","Catamaran",sans-serif;
+  font-weight:200;
+  border-radius:5px;
+  background-color:rgba(0, 0, 0, 0.4);
+  transition:1s;
+  color:white;
+  border:2px black dashed;
+}
+
+.butt:hover{
+  background-color:rgba(255,255,255,1);
+  color:white;
+  transition:1s;
+}
