@@ -205,7 +205,11 @@ h2{
 
 @media only screen and (device-width: 320px) 
   and (device-height: 640px){
-  .jumbotron{
-    background-size:100vh;
-    }
+  .jumbotron {
+      background-size:80em;
+   }
+  .post {
+      margin:2em 6em;
+      font-size:4em;
+  }
 }
