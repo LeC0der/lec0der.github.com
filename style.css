@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  padding-top:40vh;
+  padding-top:4em;
   font-family: "Ruda","Potano Sans",sans-serif;
   font-size: 200px;
   margin-left: auto;
@@ -123,4 +123,9 @@ ul li h3{
 ul li p.disclaimer{
    font-family: "Catamaran",sans-serif;
    font-size: .5em
+}
+
+@media only screen and (device-width: 320px) 
+  and (device-height: 640px){
+  
 }
