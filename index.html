@@ -1,38 +1,178 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
+    <title>Ludicros LeC0der</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <title>LeCoder</title>
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100|Pontano+Sans|Ruda:700" rel="stylesheet">
+    <style>
+      body{
+        color:white;
+        padding: 0;
+        margin: 0;
+        background-color:#16121e;
+      }
+
+      h1 {
+        padding-top:40vh;
+        font-family: "Ruda","Potano Sans",sans-serif;
+        font-size: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin:0;
+      }
+
+      .jumbotron h1.title{
+        font-size: 100px;
+      }
+
+      .jumbotron{
+        padding:none;
+        text-align: center;
+        background-position: bottom center;
+        text-transform: uppercase;
+        font-weight: bold;
+        height:1000px;
+        background-image: url("mountaindemo.jpg");
+        border-left: 25px solid rgba(6, 9, 43,0.3);
+        transition: 1.5s;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+      }
+
+      /*When Hovered over jjumbo fade image and fade out border*/
+      .jumbotron:hover{
+        transition: 2s;
+        border-left: 25px solid rgba(8, 9, 38, 0.4);
+        background-image:url("forest.jpg");
+        background-repeat: no-repeat;
+      }
+
+      .jumbotron .container{
+        padding-top: none;
+      }
+
+      span.hover{
+        border: 3px dashed white;
+        padding: 7px;
+        font-family: "Pontano Sans","Catarman",sans-serif;
+        font-size: 2em;
+        transition: 1s;
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+
+      span.hover:hover{
+        border: 2px dashed white;
+        transition: .5s;
+        background-color: rgba(33, 33, 33, 0.8);
+        padding:10px;
+        font-size: 2.5em;
+        cursor: pointer;
+      }
+
+      .fadeInUp{
+        -webkit-animation-durartion: 1s:
+        -webkit-animation-delay:2s;
+      }
+      a {
+        color:white
+      }
+      /* Each state */
+
+      a:visited { text-decoration: none; color:white; }
+      a:hover { text-decoration: none; color:white; }
+      a:focus { text-decoration: none; color:white; }
+      a:hover, a:active { text-decoration: none; color:white }
+
+      .title{
+        font-size: 200px;
+      }
+
+      .info{
+        text-align: center;
+        font-family: "Ruda",sans-serif;
+        font-size:1.5em;
+        font-weight: lighter;
+        margin: 40px 80px;
+        border: 4px dashed white;
+        padding: 30px 30px;
+        border-radius:10px;
+
+      }
+
+      .plane{
+        background-image: url("plane.jpg");
+        height:700px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .flight-description{
+      }
+
+      ul li{
+        list-style-type: none;
+      }
+
+      ul li h2{
+        font-family: "Catamaran",sans-serif;
+        font-size: 4em;
+      }
+
+      ul li h3{
+        color: Red;
+        font-weight: bold;
+        font-size: 4.5em;
+      }
+
+      ul li p.disclaimer{
+        font-family: "Catamaran",sans-serif;
+        font-size: .5em
+      }
+    </style>
   </head>
-    <body>
-      <div class="caption" id="capmain">
-        <div class="cap">
-          <h1>Le Coder </h1>
-          <h2> Your Average Kid </h2>
-          <h5 style="text-transform:lowercase;">Okay Maybe Not But Oh Well</h5>
-        </div>
 
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="title">Ludicrous <br> Luxuries</h1>
+        <span class="hover"><a href="LeC0der.github.io/kew.html">Find out more (Kew Gardens)</a></span>
       </div>
-      <div class="parallax"></div>
+    </div>
 
-      <div class="cap" style="height:500px; text-align:center; text-transform:lowercase;">
-        <h3>Hi I draw</h1>
+    <div class="container">
+      <div class="info">
+        <p class="animated fadeInUp" id="phere">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
-      <!--<div style="height:1000px;font-size:36px">
-        <div class="caption">
-          <span class="cap">This Is going to take a long time. <br> I procrastinate alot</span>
-        </div>
-    </div> -->
+    </div>
+
+    <div class="plane"></div>
+    <div class="container flight-description">
+      <ul>
+        <li>
+          <h2>Cheap, Affordable, Luxurious</h2>
+        </li>
+        <li>
+          <h3>£100-200</h3>
+        </li>
+        <li>
+          <p class="box-description"> Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br >
+             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <br>
+               dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               <p class="disclaimer">Copyright (c) 2017 Copyright Holder All Rights Reserved.</p>
+        </li>
+      </ul>
+    </div>
 
   </body>
+
 </html>
+
