@@ -202,3 +202,10 @@ h2{
   text-transform: uppercase;
   font-weight: 200;
 }
+
+@media only screen and (device-width: 320px) 
+  and (device-height: 640px){
+  .jumbotron{
+    background-size:40em;
+    }
+}
