@@ -61,7 +61,7 @@ body{
    text-align:center;
 }
 
-span.hover{
+span.hover a{
   border: 3px dashed white;
   padding: 7px;
   font-family: "Pontano Sans","Catarman",sans-serif;
@@ -70,7 +70,7 @@ span.hover{
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-span.hover:hover{
+span.hover a :hover{
   border: 2px dashed white;
   transition: .5s;
   background-color: rgba(33, 33, 33, 0.8);
