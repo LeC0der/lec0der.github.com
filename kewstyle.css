@@ -206,15 +206,15 @@ h2{
 /* Media Queries */
 @media screen and (max-width: 900px) {
   .post p{
-    font-size:230%;
+    font-size:1.75em;
   }
 @media screen and (max-width: 768px) {
   .post p{
-    font-size:290%;
+    font-size:2em;
   }
 }
 @media screen and (max-width: 480px) {
   .post p{
-    font-size:340;
+    font-size:2.25em;
   }
 }
