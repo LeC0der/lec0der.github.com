@@ -37,6 +37,7 @@ body{
 }
 
 .jumbotron .container{
+   margin-top: 40vh;
    vertical-align: middle;
   width: 100%;
   max-width: none;
