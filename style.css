@@ -28,7 +28,6 @@ body{
   height: 100%;
   background-size: cover;
   text-align: center;
-  margin:auto;
   background-attachment: fixed;
   /*for centering see jumbotron container*/
   display: table;
@@ -53,6 +52,12 @@ body{
 
 .jumbotron .container{
   padding-top: 0;
+}
+
+.content{
+   max-width: 25%;
+   margin: 0 auto;
+   text-align:center;
 }
 
 span.hover{
