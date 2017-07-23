@@ -34,6 +34,9 @@ body{
   background-image: url("mountaindemo.jpg");
   border-left: 12px solid rgba(8, 9, 38, 0.1);
   transition: 0.75s;
+   -webkit-animation-transition: 0.75s;
+   -moz-animation-transition: 0.75s;
+   -o-animation-transition: 0.75s;
 }
 
 .jumbotron .container{
@@ -82,6 +85,10 @@ span.hover a :hover{
 .fadeInUp{
   -webkit-animation-durartion: 1s:
   -webkit-animation-delay: 2s;
+   -moz-animation-duration: 1s;
+   -moz-animation-delay: 2s;
+   -o-animation-duration: 1s;
+   -o-animation-delay: 2s;
 }
       a {
         color:white
