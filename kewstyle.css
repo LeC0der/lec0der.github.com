@@ -202,3 +202,19 @@ h2{
   text-transform: uppercase;
   font-weight: 200;
 }
+
+/* Media Queries */
+@media screen and (max-width: 900px) {
+  .post p{
+    font-size:230%;
+  }
+@media screen and (max-width: 768px) {
+  .post p{
+    font-size:290%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .post p{
+    font-size:340;
+  }
+}
