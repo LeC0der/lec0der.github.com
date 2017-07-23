@@ -1,6 +1,6 @@
-/*.jumbotron .container .content h1.title{
+.jumbotron .container .content {
    text-align:center;
-} */
+} 
 
 html, body {
    height:100%;
