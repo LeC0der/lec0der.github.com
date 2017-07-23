@@ -1,18 +1,23 @@
-body{
-        color:white;
-        padding: 0;
-        margin: 0;
-        background-color:#16121e;
-      }
+html, body {
+   height:100%;
+   width: 1005;
+}
 
-      h1 {
-        padding-top:40vh;
-        font-family: "Ruda","Potano Sans",sans-serif;
-        font-size: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        margin:0;
-      }
+body{
+   color:white;
+   padding: 0;
+   margin: 0;
+   background-color:#16121e;
+}
+
+h1 {
+   padding-top:40vh;
+   font-family: "Ruda","Potano Sans",sans-serif;
+   font-size: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   margin:0;
+}
 
       .jumbotron h1.title{
         font-size: 100px;
