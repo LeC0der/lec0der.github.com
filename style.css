@@ -60,7 +60,7 @@ body{
 }
 
 .jumbotron .container{
-  padding-top: none;
+  padding-top: 0;
   text-align: center;
 }
 
@@ -90,7 +90,7 @@ span.hover:hover{
 
 .fadeInUp{
   -webkit-animation-durartion: 1s:
-  -webkit-animation-delay:2s;
+  -webkit-animation-delay: 2s;
 }
       a {
         color:white
