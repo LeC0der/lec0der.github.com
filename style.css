@@ -45,8 +45,7 @@ body{
 }
 
 .jumbotron .container{
-  display: table-cell;
-  vertical-align: middle;
+   vertical-align: middle;
   width: 100%;
   max-width: none;
 }
