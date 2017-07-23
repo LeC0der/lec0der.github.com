@@ -1,6 +1,6 @@
-.jumbotron .container .content h1.title{
+/*.jumbotron .container .content h1.title{
    text-align:center;
-}
+} */
 
 html, body {
    height:100%;
@@ -53,13 +53,6 @@ body{
 
 .jumbotron .container{
   padding-top: 0;
-  text-align: center;
-}
-
-.content{
-  max-width:31.3em;
-  margin: 0 auto;
-  text-align: center;
 }
 
 span.hover{
