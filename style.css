@@ -18,8 +18,7 @@ body{
 
 .title {
    font-family: "Ruda","Potano Sans",sans-serif;
-   font-size: 200px;
-   display: table;
+   font-size: 3.75em;
 }
 
 .jumbotron h1.title{
