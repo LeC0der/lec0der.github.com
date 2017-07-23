@@ -20,6 +20,7 @@ body{
 
 .jumbotron h1.title{
   font-size: 100px;
+   text-align:center;
 }
 
 .jumbotron{
@@ -35,7 +36,7 @@ body{
   display: table;
   background-image: url("mountaindemo.jpg");
   border-left: 12px solid rgba(8, 9, 38, 0.1);
-  transition: 1.5s;
+  transition: 0.75s;
 }
 
 .jumbotron .container{
@@ -50,7 +51,7 @@ body{
   border-left: 25px solid rgba(8, 9, 38, 0.4);
   background-image:url("forest.jpg");
   background-repeat: no-repeat;
-  transition: 2s;
+  transition: 1s;
 }
 
 .jumbotron .container{
